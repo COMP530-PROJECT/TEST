@@ -11,6 +11,7 @@ int main(){
     std::cout << *num << std::endl;
     *num = abc;
     // memcpy(num, &abc, sizeof(int));
+    cout<< "what" << endl;
     std::cout << *num << std::endl;
     std::cout << "HELL" << std::endl;
 
